@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Blocca risorse non utili all'indicizzazione
+Disallow: /images/*.png$
+
+# Sitemap
+Sitemap: https://www.ilbarbieredeiprati.it/sitemap.xml
+
+# File per AI / LLM crawlers
+# https://www.ilbarbieredeiprati.it/llms.txt

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.ilbarbieredeiprati.it/</loc>
+    <lastmod>2025-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/hero-bg.jpg</image:loc>
+      <image:title>Il Barbiere dei Prati – Giardiniere Professionista Brescia</image:title>
+      <image:caption>Giardino curato professionalmente da Il Barbiere dei Prati a Brescia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-wide-1.jpg</image:loc>
+      <image:title>Progettazione giardino con rose e arbusti ornamentali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-wide-2.jpg</image:loc>
+      <image:title>Prato a rotoli con siepi curate a Bergamo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-2.jpg</image:loc>
+      <image:title>Giardino terrazzato con fiori colorati</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-3.jpg</image:loc>
+      <image:title>Prato curato con piscina e siepi tonde</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-4.jpg</image:loc>
+      <image:title>Giardino con piscina e siepi potate professionalmente</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ilbarbieredeiprati.it/images/gallery-5.jpg</image:loc>
+      <image:title>Prato rigoglioso con giardino panoramico</image:title>
+    </image:image>
+  </url>
+</urlset>
