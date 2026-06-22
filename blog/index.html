@@ -11,26 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="blog.css"/>
 <link rel="icon" href="../images/logo-barbiere.png" type="image/png"/>
-<style>
-.blog-hero{text-align:center;padding:20px 0 44px}
-.blog-hero .sl{display:inline-block;background:var(--gp);border:1px solid var(--gmt);border-radius:50px;padding:5px 18px;font-size:11px;font-weight:600;color:var(--gm);text-transform:uppercase;letter-spacing:.1em;margin-bottom:18px}
-.blog-hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,5vw,44px);color:var(--gd);margin-bottom:14px}
-.blog-hero p{font-size:16px;color:var(--tm);max-width:520px;margin:0 auto}
-.blog-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.blog-card{background:var(--w);border:1px solid var(--gmt);border-radius:var(--r);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:all .25s}
-.blog-card:hover{border-color:var(--gl);transform:translateY(-3px);box-shadow:var(--sh)}
-.blog-card-body{padding:22px}
-.bc-cat{font-size:10px;font-weight:700;color:var(--gl);text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
-.bc-title{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--gd);line-height:1.35;margin-bottom:10px}
-.bc-desc{font-size:14px;color:var(--tm);line-height:1.65;margin-bottom:16px;flex-grow:1}
-.bc-meta{font-size:12px;color:var(--tl);display:flex;gap:12px}
-.blog-cta{background:linear-gradient(135deg,var(--gm),var(--gd));border-radius:var(--r);padding:36px 28px;text-align:center;margin-top:48px}
-.blog-cta h2{font-family:'Playfair Display',serif;font-size:24px;color:var(--w);margin-bottom:10px}
-.blog-cta p{font-size:15px;color:rgba(255,255,255,.85);margin-bottom:22px}
-.blog-cta a{display:inline-flex;align-items:center;gap:8px;background:var(--w);color:var(--gd);padding:14px 28px;border-radius:50px;font-weight:600;font-size:15px;text-decoration:none}
-.blog-cta a:hover{background:var(--cream)}
-@media(max-width:600px){.blog-grid{grid-template-columns:1fr}}
-</style>
 </head>
 <body>
 <nav>
@@ -54,6 +34,7 @@
 
   <div class="blog-grid">
     <a href="impianto-irrigazione-automatico-giardino.html" class="blog-card">
+      <div class="blog-card-img bci-water"><span class="blog-card-emoji">💧</span></div>
       <div class="blog-card-body">
         <div class="bc-cat">Irrigazione</div>
         <div class="bc-title">Impianto di Irrigazione Automatico: Guida Completa a Costi e Installazione</div>
@@ -63,6 +44,7 @@
     </a>
 
     <a href="prato-a-rotoli-prezzi-posa.html" class="blog-card">
+      <div class="blog-card-img bci-grass"><span class="blog-card-emoji">🌿</span></div>
       <div class="blog-card-body">
         <div class="bc-cat">Prato</div>
         <div class="bc-title">Prato a Rotoli: Prezzi, Posa e Manutenzione — Guida Completa</div>
@@ -72,6 +54,7 @@
     </a>
 
     <a href="potatura-siepi-calendario-tecniche.html" class="blog-card">
+      <div class="blog-card-img bci-cut"><span class="blog-card-emoji">✂️</span></div>
       <div class="blog-card-body">
         <div class="bc-cat">Potatura</div>
         <div class="bc-title">Quando e Come Potare le Siepi: Calendario Completo e Tecniche Professionali</div>
@@ -81,6 +64,7 @@
     </a>
 
     <a href="sistema-antizanzare-giardino.html" class="blog-card">
+      <div class="blog-card-img bci-shield"><span class="blog-card-emoji">🛡️</span></div>
       <div class="blog-card-body">
         <div class="bc-cat">Giardino</div>
         <div class="bc-title">Sistema Antizanzare Automatico: Come Funziona, Costi e Installazione</div>
@@ -90,6 +74,7 @@
     </a>
 
     <a href="manutenzione-prato-estate.html" class="blog-card">
+      <div class="blog-card-img bci-sun"><span class="blog-card-emoji">☀️</span></div>
       <div class="blog-card-body">
         <div class="bc-cat">Prato</div>
         <div class="bc-title">Manutenzione del Prato in Estate: Guida Completa Mese per Mese</div>
@@ -107,9 +92,15 @@
 </div>
 
 <footer>
-  <p><strong style="color:rgba(255,255,255,.85)">Il Barbiere dei Prati</strong> — Giardiniere professionista a Brescia, Bergamo e Piacenza</p>
+  <div class="ft-links">
+    <a href="../">Home</a>
+    <a href="../#servizi">Servizi</a>
+    <a href="../#gallery">Gallery</a>
+    <a href="./">Blog</a>
+    <a href="../#contatti">Contatti</a>
+  </div>
+  <p><strong style="color:rgba(255,255,255,.75)">Il Barbiere dei Prati</strong> — Giardiniere professionista a Brescia, Bergamo e Piacenza</p>
   <p><a href="tel:+393894565072">+39 389 456 5072</a> · <a href="mailto:ilbarbieredeiprati@gmail.com">ilbarbieredeiprati@gmail.com</a></p>
-  <p style="margin-top:12px"><a href="../">← Torna al sito</a></p>
 </footer>
 </body>
 </html>
