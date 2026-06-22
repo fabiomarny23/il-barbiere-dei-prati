@@ -273,6 +273,15 @@ section{padding:80px 24px}
 .pr-body{font-size:15px;color:var(--tm);line-height:1.75;margin-bottom:20px}
 .pr-link{display:inline-flex;align-items:center;gap:6px;color:var(--gd);font-weight:600;font-size:14px;text-decoration:none;border-bottom:2px solid var(--gold);padding-bottom:2px;transition:color .2s}
 .pr-link:hover{color:var(--gl)}
+#blog{background:var(--gp)}
+.blog-grid-home{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.blog-card-home{background:var(--w);border:1px solid var(--gmt);border-radius:var(--r);padding:22px 20px;text-decoration:none;display:flex;flex-direction:column;gap:8px;transition:all .25s}
+.blog-card-home:hover{border-color:var(--gl);transform:translateY(-3px);box-shadow:var(--sh)}
+.bch-cat{font-size:10px;font-weight:700;color:var(--gl);text-transform:uppercase;letter-spacing:.1em}
+.bch-title{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;color:var(--gd);line-height:1.35;flex-grow:1}
+.bch-arrow{font-size:13px;color:var(--gl);font-weight:600;margin-top:6px}
+.blog-all{display:inline-flex;align-items:center;gap:8px;margin-top:32px;background:var(--gd);color:var(--w);padding:12px 26px;border-radius:50px;font-weight:600;font-size:14px;text-decoration:none;transition:background .2s}
+.blog-all:hover{background:var(--gm)}
 .pr-seal{display:inline-flex;align-items:center;gap:6px;background:var(--gp);border:1px solid var(--gmt);border-radius:50px;padding:5px 12px;font-size:11px;font-weight:600;color:var(--gd);text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px}
 #faq{background:var(--cream)}
 .fql{margin-top:36px;display:flex;flex-direction:column;gap:10px}
@@ -302,7 +311,8 @@ section{padding:80px 24px}
 footer{background:var(--td);padding:24px;text-align:center}
 footer p{font-size:12px;color:rgba(255,255,255,.35);line-height:1.8}
 footer a{color:rgba(255,255,255,.35);text-decoration:none}
-@media(max-width:400px){nav{padding:0 12px}.nl-t{display:none}section{padding:60px 16px}}
+@media(max-width:700px){.blog-grid-home{grid-template-columns:1fr 1fr}}
+@media(max-width:400px){nav{padding:0 12px}.nl-t{display:none}section{padding:60px 16px}.blog-grid-home{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -520,6 +530,46 @@ footer a{color:rgba(255,255,255,.35);text-decoration:none}
         <summary>Operate anche per condomini e aziende a Bergamo e Piacenza?</summary>
         <p class="fa">Sì, offriamo servizi di manutenzione del verde per privati, condomini, ville e aziende nelle province di Brescia, Bergamo e Piacenza. Contattaci per un preventivo personalizzato e gratuito.</p>
       </details>
+    </div>
+  </div>
+</section>
+
+<section id="blog">
+  <div class="con">
+    <div class="tc">
+      <div class="sl">Consigli dal campo</div>
+      <h2 class="st">Guide Pratiche per il Tuo Giardino</h2>
+      <p class="ss">Risposte concrete alle domande più frequenti — scritte da chi lo fa ogni giorno.</p>
+    </div>
+    <div class="blog-grid-home">
+      <a href="blog/impianto-irrigazione-automatico-giardino.html" class="blog-card-home">
+        <div class="bch-cat">Irrigazione</div>
+        <div class="bch-title">Impianto Irrigazione Automatico: Costi e Guida Completa</div>
+        <div class="bch-arrow">Leggi la guida →</div>
+      </a>
+      <a href="blog/prato-a-rotoli-prezzi-posa.html" class="blog-card-home">
+        <div class="bch-cat">Prato</div>
+        <div class="bch-title">Prato a Rotoli: Prezzi, Posa e Manutenzione</div>
+        <div class="bch-arrow">Leggi la guida →</div>
+      </a>
+      <a href="blog/potatura-siepi-calendario-tecniche.html" class="blog-card-home">
+        <div class="bch-cat">Potatura</div>
+        <div class="bch-title">Quando e Come Potare le Siepi: Calendario Completo</div>
+        <div class="bch-arrow">Leggi la guida →</div>
+      </a>
+      <a href="blog/sistema-antizanzare-giardino.html" class="blog-card-home">
+        <div class="bch-cat">Giardino</div>
+        <div class="bch-title">Sistema Antizanzare Automatico: Come Funziona e Costi</div>
+        <div class="bch-arrow">Leggi la guida →</div>
+      </a>
+      <a href="blog/manutenzione-prato-estate.html" class="blog-card-home">
+        <div class="bch-cat">Prato</div>
+        <div class="bch-title">Manutenzione del Prato in Estate: Guida Mese per Mese</div>
+        <div class="bch-arrow">Leggi la guida →</div>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:36px">
+      <a href="blog/" class="blog-all">Tutte le guide →</a>
     </div>
   </div>
 </section>
